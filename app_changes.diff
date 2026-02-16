@@ -1,0 +1,11 @@
+--- app.conf	2026-02-13 00:52:50.800475700 +0330
++++ app_fixed.conf	2026-02-13 00:55:50.382656800 +0330
+@@ -1,4 +1,5 @@
+ APP_NAME=MaktabApp
+-ENV=prod
+-TIMEOUT=30
++ENV=staging
++TIMEOUT=45
++RETRY=3
+ LOG_LEVEL=info
+\ No newline at end of file
